@@ -2172,7 +2172,7 @@ withHeadersMixin(headers)
 withHost(host)
 ```
 
-"Host is an extended POSIX regex matched against the host header of a request, e.g. \"foo.com\" \n If omitted or empty, the value of the host header is ignored."
+"Host is an extended POSIX regex matched against the host header of a request. Examples: \n - foo.bar.com will match the host fooXbar.com or foo-bar.com - foo\\.bar\\.com will only match the host foo.bar.com \n If omitted or empty, the value of the host header is ignored."
 
 ### fn spec.egress.toPorts.rules.http.withMethod
 
@@ -4220,7 +4220,7 @@ withHeadersMixin(headers)
 withHost(host)
 ```
 
-"Host is an extended POSIX regex matched against the host header of a request, e.g. \"foo.com\" \n If omitted or empty, the value of the host header is ignored."
+"Host is an extended POSIX regex matched against the host header of a request. Examples: \n - foo.bar.com will match the host fooXbar.com or foo-bar.com - foo\\.bar\\.com will only match the host foo.bar.com \n If omitted or empty, the value of the host header is ignored."
 
 ### fn spec.ingress.toPorts.rules.http.withMethod
 
@@ -6032,7 +6032,7 @@ withHeadersMixin(headers)
 withHost(host)
 ```
 
-"Host is an extended POSIX regex matched against the host header of a request, e.g. \"foo.com\" \n If omitted or empty, the value of the host header is ignored."
+"Host is an extended POSIX regex matched against the host header of a request. Examples: \n - foo.bar.com will match the host fooXbar.com or foo-bar.com - foo\\.bar\\.com will only match the host foo.bar.com \n If omitted or empty, the value of the host header is ignored."
 
 ### fn specs.egress.toPorts.rules.http.withMethod
 
@@ -8080,7 +8080,7 @@ withHeadersMixin(headers)
 withHost(host)
 ```
 
-"Host is an extended POSIX regex matched against the host header of a request, e.g. \"foo.com\" \n If omitted or empty, the value of the host header is ignored."
+"Host is an extended POSIX regex matched against the host header of a request. Examples: \n - foo.bar.com will match the host fooXbar.com or foo-bar.com - foo\\.bar\\.com will only match the host foo.bar.com \n If omitted or empty, the value of the host header is ignored."
 
 ### fn specs.ingress.toPorts.rules.http.withMethod
 
